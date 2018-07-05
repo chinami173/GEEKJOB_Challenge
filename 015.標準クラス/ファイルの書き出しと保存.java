@@ -20,8 +20,10 @@ public class ファイルの書き出しと保存 {
         //書き込み
         fw.write("こんにちは。菅原千波です。宜しくお願い致します。");
         
+        fw.close();
     }catch(IOException e){
         e.printStackTrace();
     }
 }
 }
+
